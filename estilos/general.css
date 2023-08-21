@@ -1,146 +1,130 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
 
 header {
-    background:url(../img/fondo2.jpg) ;
-    display: flex;
-    flex-wrap: wrap;
-    position:fixed;
-    background-position: center;
-    background-size:cover;  
-    width: 100%;
-    top: 0;
-    z-index: 100;
-                
+  background: url(../img/fondo2.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
-header a{
-    color:white;
-    text-decoration: none;
-    font-size: 25px;
-    padding: 15px;
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 15px;
 }
-header h1{
-    font-size: 41px;
-    float: center;
-    text-align: center;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    
-      
+header h1 {
+  font-size: 41px;
+  float: center;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-header nav{
-    text-decoration: none;
-    float: center;
-    background: rgb(27, 27, 27);
-    margin-top: 20px;
-    margin-bottom: 0px;
-    width: 100%;
-    display: flex;
-    justify-content:center
-    
-       
-      
+header nav {
+  text-decoration: none;
+  float: center;
+  background: rgb(27, 27, 27);
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-header div{
-    width: 100%;
-    
-    }
-header nav a:hover{
-    background: rgb(251, 251, 251,0.3);
+header div {
+  width: 100%;
+}
+header nav a:hover {
+  background: rgb(251, 251, 251, 0.3);
 }
 
-
-
-h2{
-    color:black;
-    text-align: center;
-
+h2 {
+  color: black;
+  text-align: center;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    font-size: 25px;
-    background: cornsilk;
-    margin-top: 200px;
-    
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 25px;
+  background: cornsilk;
+  margin-top: 200px;
 }
 
 #insta {
-    color:black;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: 1000px;
-    
-      
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 1000px;
 }
-#insta:hover{
-    background: rgb(214, 204, 204);
-    border: 2px solid gray;
+#insta:hover {
+  background: rgb(214, 204, 204);
+  border: 2px solid gray;
 }
-#titu1{
-    font-size: 2pc;
-    margin-bottom: 20px;
-    text-align: center;
+#titu1 {
+  font-size: 2pc;
+  margin-bottom: 20px;
+  text-align: center;
 }
-#parrafo{
-    text-align:justify;
-    margin: 30px;
-    
+#parrafo {
+  text-align: justify;
+  margin: 30px;
 }
 
-#inicio{
-    text-align: center;
-    margin-top: 0px;
-        
+#inicio {
+  text-align: center;
+  margin-top: 0px;
 }
-#inicio .contenedor{
-    margin-top: 80px;
-    margin: 10px;
-}
-
-.contenedor .video #youtube{
-        margin-top: 40px;
-}
-.contenedor .video p{
-    text-align:justify;
-    margin: 30px;
+#inicio .contenedor {
+  margin-top: 80px;
+  margin: 10px;
 }
 
-.imagen{
-    margin: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-decoration: none;
-
+.contenedor .video #youtube {
+  margin-top: 40px;
 }
-#imagen2{
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-decoration: none;
-
-}
-#pinfo{
-    text-align:justify;
-    margin: 30px;
-}
-#sus{
-    margin-top: 80px;
+.contenedor .video p {
+  text-align: justify;
+  margin: 30px;
 }
 
+.imagen {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+}
+#imagen2 {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+}
+#pinfo {
+  text-align: justify;
+  margin: 30px;
+}
+#sus {
+  margin-top: 80px;
+}
 
-
-footer{
-    text-align: center;
-    margin-top: 300px;
-    margin-bottom: 100px;
+footer {
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.ocultar {
+  display: none;
 }
