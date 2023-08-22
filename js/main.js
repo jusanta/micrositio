@@ -35,4 +35,9 @@ window.onload = () => {
     }
 
   }
+  animar();
+
+}
+function animar() {
+  gsap.to("#btn_play", { rotation: 360, x: 100, duration: 1 });
 }
